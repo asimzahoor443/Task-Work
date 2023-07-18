@@ -1,0 +1,353 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 10px 20px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-icon {
+    width: 50px; 
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .navbar-company-name {
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+ 
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+  
+  .navbar-right a {
+    color: #000000; 
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  
+  .navbar-right a:hover {
+    border-bottom: 2px solid #000000; /* Adding underline on hover */
+  }
+
+  /* .home-page{
+    background-image: url(Images/Hero\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+  } */
+
+  .home-section {
+    height: 100vh; /* Set the section height to the full viewport height */
+    background-image: url('Images/Hero\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .home-content {
+    text-align: left;
+    padding: 20px;
+    margin-left: 20px;
+    /* background-color: rgba(255, 255, 255, 0.7);  */
+  }
+  
+  .home-content h1 {
+    font-family: sans-serif;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+
+  /* Features Section */
+/* #features {
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+} */
+
+.reputation-section h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Style the reputation boxes */
+.reputation-box {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.reputation-box .icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.reputation-box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.reputation-box p {
+  font-size: 16px;
+  text-align: left;
+}
+
+/* Founder Section */
+
+.founder-section {
+  position: relative;
+  padding: 50px 0;
+}
+
+.founder-picture {
+  width: 120%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.about-us-box {
+  position: absolute;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 60px;
+  height: 60%;
+  width: 450px;
+  height: 370px;
+}
+
+.about-us-box h2 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.about-us-box p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.history-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #fff; /* Adjust the button background color */
+  color: #007bff; /* Adjust the button text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Services Section */
+
+.services-section {
+  text-align: center; /* Center the boxes */
+  margin: 50px 0;
+  background-color: whitesmoke;
+}
+
+.services-heading {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.service-box {
+  display: inline-block; 
+  vertical-align: top; 
+  text-align: center;
+  padding: 20px;
+  color: #007bff; 
+  border-radius: 5px;
+  margin: 20px; 
+  width: 200px;
+  height: 200px;
+}
+
+/* Specific styles for white background boxes */
+.white-bg {
+  background-color: #fff;
+  color: #007bff; /* Set text color to blue */
+}
+
+.white-bg .icon {
+  color: #007bff; 
+}
+
+
+.blue-bg {
+  background-color: #007bff;
+  color: #fff; 
+}
+
+.blue-bg .icon {
+  color: #fff;
+}
+
+.service-box h3 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* Consultation Secction */
+
+.landscape-image {
+  max-width: 220%; /* Limit the width to avoid exceeding the screen */
+  height: 300px;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  margin-bottom: 30px;
+}
+
+.consultation-heading {
+  color: white;
+  font-weight: bold;
+  margin-top: 20%;
+  margin-left: -400px;
+}
+
+.consultation-paragraph {
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  margin-left: -400px;
+}
+
+.consultation-section {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.consultation-content {
+  flex: 1;
+}
+
+.consultation-section .container {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.consultation-section .col-md-6 {
+  flex-basis: 48%; 
+}
+
+.btn-primary {
+  margin-left: 350px;
+}
+
+
+/* Contact Section */
+
+
+.contact-section {
+  background-color: whitesmoke;
+  padding: 50px 0;
+}
+
+.contact-content {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.contact-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-paragraph {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+  padding: 5px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 250px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
